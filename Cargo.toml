@@ -1,8 +1,8 @@
 [package]
-name = "bevy_game" # ToDo
+name = "Rustcraft"
 version = "0.1.0"
 publish = false
-authors = ["Niklas Eicker <git@nikl.me>"] # ToDo: you are the author ;)
+authors = ["Nicholas Grishaev"]
 edition = "2021"
 exclude = ["dist", "build", "assets", "credits"]
 
@@ -55,7 +55,7 @@ bevy = { version = "0.12", default-features = false, features = [
     "webgl2",
 ] }
 bevy_kira_audio = { version = "0.18" }
-bevy_asset_loader = { version = "0.18" }
+bevy-inspector-egui = "*"
 rand = { version = "0.8.3" }
 webbrowser = { version = "0.8", features = ["hardened"] }
 
